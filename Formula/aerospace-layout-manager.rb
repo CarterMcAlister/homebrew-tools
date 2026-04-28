@@ -33,6 +33,7 @@ class AerospaceLayoutManager < Formula
       }
     JSON
 
-    assert_match "test", shell_output("#{bin}/aerospace-layout-manager --configFile #{testpath}/layouts.json --listLayouts")
+    output = shell_output("#{bin}/aerospace-layout-manager --configFile #{testpath}/layouts.json --listLayouts")
+    assert_match "test", output
   end
 end

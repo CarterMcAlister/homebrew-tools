@@ -1,7 +1,6 @@
 class LaunchctrlTui < Formula
   desc "Terminal UI for inspecting and controlling macOS startup items"
   homepage "https://github.com/CarterMcAlister/launchctrl-tui"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
