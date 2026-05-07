@@ -1,6 +1,6 @@
 cask "arklike" do
-  version "0.3.0"
-  sha256 "6b2c1cb4103bcbef9ac29f820074881e52a44218d4ece7b309df457a5f4f1fe1"
+  version "0.3.1"
+  sha256 "449ee6213143775ebf945b5a8be40f25c622f71be78e66135ebb515d4968c75b"
 
   url "https://github.com/CarterMcAlister/arklike/releases/download/v#{version}/Arklike-#{version}.zip"
   name "Arklike"
