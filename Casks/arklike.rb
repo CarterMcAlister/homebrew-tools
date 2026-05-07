@@ -1,6 +1,6 @@
 cask "arklike" do
-  version "0.3.3"
-  sha256 "e8860349c89b5597dcc0ca73b1cac000920650fec64a4642e3005739137ed646"
+  version "0.4.0"
+  sha256 "d83b7d2dfaf368de3ed5756c11e5580c5ab727c3403c9e2d6248c8e6fa62c42f"
 
   url "https://github.com/CarterMcAlister/arklike/releases/download/v#{version}/Arklike-#{version}.zip"
   name "Arklike"
@@ -11,7 +11,8 @@ cask "arklike" do
 
   app "Arklike.app"
 
-  uninstall quit: "com.arklike.app"
+  uninstall quit: "com.arklike.app",
+            login_item: "Arklike"
 
   zap trash: [
     "~/Library/Preferences/com.arklike.app.plist",
